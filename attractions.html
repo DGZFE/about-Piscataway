@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Piscataway Attractions</title>
+    <style>
+        /* Basic Styling (same as index.html) */
+        body {
+            font-family: sans-serif;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 1em;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        nav a {
+            margin-right: 1em;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        /* Attractions Section Styling */
+      .attractions-section {
+            margin-top: 20px;
+        }
+
+      .attractions-section ul {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+      .attractions-section li {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+      .attractions-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Piscataway Attractions</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="schools.html">Schools</a>
+            <a href="attractions.html">Attractions</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="attractions-section">
+            <h2>Places to Visit</h2>
+            <ul>
+                <li>
+                    <h3>East Jersey Old Town Village</h3>
+                    <img src="https://www.co.middlesex.nj.us/Government/Departments/BDE/PublishingImages/EJOTV%20(2).jpg" alt="East Jersey Old Town Village">
+                    <p>Description: Step back in time at East Jersey Old Town Village, a living history museum that recreates life in the 18th century. Explore historic buildings, interact with costumed interpreters, and experience the daily life of early European settlers in New Jersey.</p>
+                </li>
+                <li>
+                    <h3>Rutgers Gardens</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rutgers_Gardens.JPG/1280px-Rutgers_Gardens.JPG" alt="Rutgers Gardens">
+                    <p>Description: Explore the beauty of Rutgers Gardens, a 180-acre botanical garden with diverse plant collections, scenic trails, and educational programs. Enjoy the tranquility of the bamboo forest, admire the colorful flower displays, and learn about sustainable gardening practices.</p>
+                </li>
+                </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Website created by Dhruv Gowda</p>
+    </footer>
+</body>
+</html>
